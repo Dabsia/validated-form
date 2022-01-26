@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>User Profile</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/profile.css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,
+    300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    
+</head>
+<body>
+    <main>
+        <section>
+            <nav>
+                <div class="user__profile">
+                    <div class="image__container">
+                        <img src="./images/Dabsia.jpg" class = 'user__profile__image' alt="user image">
+                    </div>
+                    <h3>Hello, <span id = 'uname'></span></h3>
+                </div>
+
+                <button id = 'logout'> Logout</button>
+            </nav>
+           
+
+            <div class="display__name">
+                <h3>Firstname: <span id = 'firstname'></span> </h3>
+                <h3>Lastname: <span id = 'lastname'></span></h3>
+                <h3>Othername: <span id = 'othername'></span></h3>
+            </div>
+
+            <div class="display__login">
+                <h3>Username: <span id = 'username'></span></h3>
+            </div>
+
+            
+            <div class="display__details">
+                <h3>Email: <span id = 'email'></span></h3>
+                <h3>Phone Number:<span id = 'phone'></span></h3>
+            </div>
+        </section>
+    </main>
+    
+    <script src='profile.js'></script>
+</body>
+</html>
